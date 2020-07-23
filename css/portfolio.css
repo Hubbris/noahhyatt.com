@@ -1,0 +1,23 @@
+.portfolio-gallery {
+  background: rgb(15, 15, 15) !important;
+  height: auto;
+  width: 100vw;
+  padding: 5vh 2.5vh 5vh 2.5vh;
+}
+
+.portfolio-gallery h1 {
+  color: #fff !important;
+  font-size: 7.5vh;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.75vw;
+}
+
+img.gallery-photo {
+  width: 90%;
+  transition-duration: 0.4s;
+}
+
+img.gallery-photo:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
